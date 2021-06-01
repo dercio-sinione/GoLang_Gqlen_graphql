@@ -2,15 +2,17 @@ schema:
   - schema.graphql
 
 exec:
-  filename: generated.go
-  # package: generated
+  filename: generated/generated.go
+  package: generated
 
 model:
   filename:  model/models_gen.go
 
-# models:
-#   filename:  model/models_gen.go
-#   package: model
+models:
+  User:
+    model: MyGqlgen/models.User
+  Meetup:
+    model: MyGqlgen/models.Meetups
 
 resolver:
   filename: resolver.go
