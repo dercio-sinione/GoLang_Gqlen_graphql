@@ -1,0 +1,22 @@
+schema:
+  - schema.graphql
+
+exec:
+  filename: generated.go
+  # package: generated
+  
+model:
+  filename:  model/models_gen.go
+
+# models:
+#   filename:  model/models_gen.go
+#   package: model
+
+resolver:
+  filename: resolver.go
+  type: Resolver
+  # layout: follow-schema
+  # dir: mode
+  # package: graph
+
+autobind: []

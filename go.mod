@@ -1,4 +1,4 @@
-module github.com/dercio-sinione/Gqlgen
+module MyGqlgen
 
 go 1.16
 
