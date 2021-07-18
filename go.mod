@@ -1,4 +1,4 @@
-module MyGqlgen
+module meetmeup
 
 go 1.16
 
